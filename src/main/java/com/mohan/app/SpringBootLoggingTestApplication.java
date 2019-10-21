@@ -22,7 +22,7 @@ public class SpringBootLoggingTestApplication {
       for(int i = 0; i<10000; i++) {
         LOGGER.info("Test"); 
       }
-      return "Hello!!";
+      return "Hi this is ravi";
     }
 	
 	
