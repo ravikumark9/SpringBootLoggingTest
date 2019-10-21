@@ -19,7 +19,7 @@ public class SpringBootLoggingTestApplication {
     
     @RequestMapping("/")
     public String getString() {
-      for(int i = 0; i<10000; i++) {
+      for(int i = 0; i<10; i++) {
         LOGGER.info("Test"); 
       }
       return "Hello!!";
