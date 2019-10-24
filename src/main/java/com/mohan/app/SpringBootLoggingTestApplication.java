@@ -29,7 +29,7 @@ public class SpringBootLoggingTestApplication extends SpringBootServletInitializ
       for(int i = 0; i<10; i++) {
         LOGGER.info("Test"); 
       }
-      return "Hello!!";
+      return "Hi this is ravi";
     }
 	
 	
