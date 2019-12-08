@@ -59,19 +59,24 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-	<repository>
-		<id>releases</id>
-		<url>http://scsbbrc4c.mylabserver.com:8081/#admin/repository/repositories/</url>
-	</repository>
-	</distributionManagement>
-		
+
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-releases</id>
 			<url>https://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Releases</name>
+	      <url>http://scsbbrc4c.mylabserver.com/:8081/repository/maven-releases</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot</name>
+	      <url>http://scsbbrc4c.mylabserver.com/:8081/repository/maven-snapshots</url>
+	    </snapshotRepository>
+	  </distributionManagement>
 
 </project>
