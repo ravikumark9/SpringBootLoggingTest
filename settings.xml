@@ -38,7 +38,7 @@
   <server>
     <id>releases</id>
     <username>admin</username>
-    <password>bbrc@321</password>
+    <password></password>
   </server>
 </servers>
 </settings>
