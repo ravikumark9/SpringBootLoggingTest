@@ -75,7 +75,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot</name>
-	      <url>http://scsbbrc4c.mylabserver.com:8081/#browse/browse:proj_snap/</url>
+	      <url>http://scsbbrc4c.mylabserver.com:8081/#browse/browse:proj_snap</url>
 	    </snapshotRepository>
 	  </distributionManagement>
 
